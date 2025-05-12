@@ -7,6 +7,7 @@ URL:		https://pypi.org/project/awscrt/
 License:	Apache-2.0
 Group:		Development/Python
 BuildRequires:	python
+BuildRequires:	pkgconfig(python3)
 BuildRequires:	cmake
 BuildSystem:	python
 
