@@ -1,6 +1,6 @@
 Name:		python-awscrt
 Version:	0.27.1
-Release:	1
+Release:	2
 Source0:	https://files.pythonhosted.org/packages/source/a/awscrt/awscrt-%{version}.tar.gz
 Summary:	A common runtime for AWS Python projects
 URL:		https://pypi.org/project/awscrt/
