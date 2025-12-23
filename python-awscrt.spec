@@ -8,6 +8,8 @@ License:	Apache-2.0
 Group:		Development/Python
 BuildRequires:	python
 BuildRequires:	pkgconfig(python3)
+BuildRequires:  python%{pyver}dist(setuptools)
+BuildRequires:  python%{pyver}dist(pip)
 BuildRequires:	cmake
 BuildSystem:	python
 
