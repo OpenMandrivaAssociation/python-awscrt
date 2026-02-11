@@ -2,7 +2,7 @@
 
 Name:		python-awscrt
 Version:	0.31.1
-Release:	1
+Release:	2
 Source0:	https://files.pythonhosted.org/packages/source/a/%{module}/%{module}-%{version}.tar.gz#/%{name}-%{version}.tar.gz
 Summary:	A common runtime for AWS Python projects
 URL:		https://pypi.org/project/awscrt/
@@ -21,7 +21,7 @@ BuildRequires:	python%{pyver}dist(wheel)
 A common runtime for AWS Python projects
 
 %build -p
-export LDFLAGS="%{ldflags} -lpython%{pyver}"
+export LDFLAGS="%{ldflags} -lpython%{pyver} -lm"
 
 %files
 %{py_platsitedir}/_%{module}.*.so
