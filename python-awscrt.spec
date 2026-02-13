@@ -1,8 +1,8 @@
 %define module awscrt
 
 Name:		python-awscrt
-Version:	0.31.1
-Release:	2
+Version:	0.31.2
+Release:	1
 Source0:	https://files.pythonhosted.org/packages/source/a/%{module}/%{module}-%{version}.tar.gz#/%{name}-%{version}.tar.gz
 Summary:	A common runtime for AWS Python projects
 URL:		https://pypi.org/project/awscrt/
