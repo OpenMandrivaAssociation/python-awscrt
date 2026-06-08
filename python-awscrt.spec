@@ -1,7 +1,7 @@
 %define module awscrt
 
 Name:		python-awscrt
-Version:	0.33.0
+Version:	0.34.1
 Release:	1
 License:	Apache-2.0
 Group:		Development/Python
@@ -12,7 +12,7 @@ BuildSystem:	python
 BuildRequires:	cmake
 BuildRequires:	make
 BuildRequires:	python
-BuildRequires:	pkgconfig(python3)
+BuildRequires:	pkgconfig(python)
 BuildRequires:	python%{pyver}dist(pip)
 BuildRequires:	python%{pyver}dist(setuptools)
 BuildRequires:	python%{pyver}dist(wheel)
