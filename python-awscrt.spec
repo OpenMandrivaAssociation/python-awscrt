@@ -1,7 +1,7 @@
 %define module awscrt
 
 Name:		python-awscrt
-Version:	0.34.1
+Version:	0.36.1
 Release:	1
 License:	Apache-2.0
 Group:		Development/Python
